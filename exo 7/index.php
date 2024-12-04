@@ -1,7 +1,6 @@
 <?php
 
-$première = 0;
-$deuxième = 67;
+
 
 
 
@@ -21,14 +20,16 @@ $deuxième = 67;
 
 
     <h1>
+      
         <?php
-        while ($première <= 20) {
-            $resultat = $première * $deuxième;
-            
-            echo "{$resultat} <br>" ;
-            $première++;
-        }
-     
+
+        $affichage = "on tient le bon bout"; 
+
+       for ($variable = 1 ; $variable <=100 ; $variable+=15){
+        echo "{$affichage} <br>";
+       
+       }
+      
         ?>
     </h1>
 
